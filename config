@@ -1,6 +1,6 @@
 # Docker doesn't like variables enscapulated in " in this file, make sure to remove them all
-BC_MINER_KEY=0xc...
-BC_SCOOKIE=a-password-without-spaces-or-weird-characters
+BC_MINER_KEY=0xB98e435af09C43fD214fd8684Ae74D5f30b4C0B5
+BC_SCOOKIE=ol
 
 BC_NETWORK=main
 MIN_HEALTH_NET=true
