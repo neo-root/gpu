@@ -51,17 +51,17 @@ fi
 
 if [ -z ${nopull} ]; then
   echo -e "${GREEN}Pulling latest upstream image...${NC}"
-  docker lgray/bcnode:last
+  docker lgray/bcnode
 echo
 fi
 
 echo -e "${GREEN}Building new image...${NC}"
-docker build -t lgray/bcnode:last -f Dockerfile.bcnode .
+docker build -t lgray/bcnode -f Dockerfile.bcnode .
 echo
 
 if [ -z ${nopurge} ]; then
   echo -e "${GREEN}Removing original bcnode image...${NC}"
-  docker rmi lgray/bcnode:last
+  docker rmi lgray/bcnode
   echo
 fi
 
