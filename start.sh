@@ -7,7 +7,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 
 gpuminer_image="local/gpuminer:latest"
-bcnode_image="lgray/bcnode:last"
+bcnode_image="lgray/bcnode"
 
 while [ $# -gt 0 ]; do
   if [[ $1 == *"--"* ]]; then
